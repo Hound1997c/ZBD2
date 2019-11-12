@@ -24,7 +24,7 @@
               <caret line="112" column="63" lean-forward="true" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
-                <marker date="1573397744247" expanded="true" signature="4020:4489" ph="..." />
+                <marker date="1573570576873" expanded="true" signature="4020:4489" ph="..." />
               </folding>
             </state>
           </provider>
@@ -456,7 +456,7 @@
       <workItem from="1573232910453" duration="4443000" />
       <workItem from="1573391636405" duration="7865000" />
       <workItem from="1573469145609" duration="4234000" />
-      <workItem from="1573567746633" duration="1642000" />
+      <workItem from="1573567746633" duration="1689000" />
     </task>
     <task id="LOCAL-00001" summary="podział okien po zalogowaniu dla 3 różnych Ról.&#10;ROLE_USER ROLE_DALER ROLE_ADMIN">
       <created>1550067275115</created>
@@ -518,7 +518,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483654000" />
+    <option name="totallyTimeSpent" value="483701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1009,7 +1009,7 @@
           <caret line="112" column="63" lean-forward="true" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
-            <marker date="1573397744247" expanded="true" signature="4020:4489" ph="..." />
+            <marker date="1573570576873" expanded="true" signature="4020:4489" ph="..." />
           </folding>
         </state>
       </provider>
