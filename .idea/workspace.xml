@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef290696-0c4d-4718-a048-773a5a50a0d5" name="Default Changelist" comment="" />
+    <list default="true" id="ef290696-0c4d-4718-a048-773a5a50a0d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/userIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user/userIndex.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+            <state relative-caret-position="380">
+              <caret line="112" column="63" lean-forward="true" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
-                <marker date="1572642037742" expanded="true" signature="3967:4436" ph="..." />
+                <marker date="1573397744247" expanded="true" signature="4020:4489" ph="..." />
               </folding>
             </state>
           </provider>
@@ -33,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="1190">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -122,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/adminIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+            <state relative-caret-position="102">
+              <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
@@ -188,7 +196,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ZBD2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -246,15 +254,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/BucketService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/BucketServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/adminIndex.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/functions.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/functions.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="-13" />
+    <option name="x" value="-21" />
+    <option name="y" value="62" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -264,6 +272,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,12 +299,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="register-user — kopia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,10 +325,11 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573236362980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573477736937" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -444,7 +461,10 @@
       <workItem from="1572190892058" duration="8291000" />
       <workItem from="1572640700546" duration="2254000" />
       <workItem from="1573161043324" duration="2662000" />
-      <workItem from="1573232910453" duration="1764000" />
+      <workItem from="1573232910453" duration="4443000" />
+      <workItem from="1573391636405" duration="7865000" />
+      <workItem from="1573469145609" duration="4234000" />
+      <workItem from="1573567746633" duration="891000" />
     </task>
     <task id="LOCAL-00001" summary="podział okien po zalogowaniu dla 3 różnych Ról.&#10;ROLE_USER ROLE_DALER ROLE_ADMIN">
       <created>1550067275115</created>
@@ -506,12 +526,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467234000" />
+    <option name="totallyTimeSpent" value="482903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33455345" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33455345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -521,7 +542,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" weight="0.4628752" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.0821485" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39810428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,6 +577,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/ZBD2" />
     </ignored-roots>
     <MESSAGE value="podział okien po zalogowaniu dla 3 różnych Ról.&#10;ROLE_USER ROLE_DALER ROLE_ADMIN" />
     <MESSAGE value="można sie wylogować" />
@@ -991,19 +1013,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+        <state relative-caret-position="380">
+          <caret line="112" column="63" lean-forward="true" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
-            <marker date="1572642037742" expanded="true" signature="3967:4436" ph="..." />
+            <marker date="1573397744247" expanded="true" signature="4020:4489" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="1190">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1078,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/adminIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+        <state relative-caret-position="102">
+          <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
