@@ -19,8 +19,8 @@ public class DBFile {
     @Lob
     private byte[] data;
 
-    @OneToOne(mappedBy = "productImage")
-    private Product product;
+    //@OneToOne(mappedBy = "productImage")
+    //private Product product;
 
     public DBFile() {
 
@@ -64,13 +64,13 @@ public class DBFile {
         this.data = data;
     }
 
-    public Product getProduct() {
+   /*public Product getProduct() {
         return product;
     }
 
     public void setProduct(Product product) {
         this.product = product;
-    }
+    } */
 
     // Getters and Setters (Omitted for brevity)
 }

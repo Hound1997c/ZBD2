@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="templates/classes.css">
         <link rel="stylesheet" href="classes.css">
-        <link rel="stylesheet" href="css/uploadFileStyles.css">
         <style>
             body {font-family: "Lato", sans-serif}
             .mySlides {display: none}
@@ -17,6 +16,7 @@
 
         <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/>
         <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+        <link rel="stylesheet" type="text/css" th:href="@{/css/uploadFileStyles.css}">
 
         <title>userIndex</title>
     </head>
@@ -150,7 +150,8 @@
                         <th>Delete</th>
                     </tr>
                     <form th:action="@{'/admin/adminIndex/addProduct/'}" enctype="multipart/form-data" method="post" th:object="${prod}">
-                    <tr th:id="${prod.name}">
+                    <!--th:id="${prod.name}"-->
+                        <tr>
                         <td>
                             <select value="category" th:field="*{category}">
                                 <option value="food">food</option>
@@ -159,7 +160,7 @@
                         </td>
                         <td><input value="name" th:field="*{name}"/></td>
                         <td><input value="cost" th:field="*{cost}"/></td>
-                        <!--td><input th:field="*{itemImage}" type="file"/></td-->
+                        <td><!--input value="productImage" th:field="*{productImage}" type="file"/--></td>
                         <td><button type="submit">Add Product</button></td>
                     </tr>
                     </form>
@@ -168,9 +169,9 @@
                         <td th:text="${prod.name}"/>
                         <td th:text="${prod.cost}"/>
                         <td  > <button> Edit </button> </td>
-                        <td><img th:src="@{prod}"></td>
+                        <td><!--img th:src=""--></td>
                         <td>
-                            <div class="upload-content">
+                            <!--<div class="upload-content">
                                 <div class="single-upload">
                                     <h3>Upload Single File</h3>
                                     <form action="/admin/adminIndex" id="singleUploadForm" name="singleUploadForm" enctype="multipart/form-data" method="post">
@@ -182,7 +183,7 @@
                                         <div id="singleFileUploadSuccess"></div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </td>
                         <td> <a th:href="@{'/admin/adminIndex/deleteProduct/' + ${prod.name}}">Delete</a> </td>
                     <!--<button th:onclick="'window.location.href = \'' + '/admin/adminIndex/deleteProduct/' + ${prod.name} +'\''">Delete</button> -->
@@ -192,6 +193,36 @@
         </div>
 
 
+    <div class="upload-container">
+        <div class="upload-header">
+            <h2>Spring Boot File Upload / Download Rest API Example</h2>
+        </div>
+        <div class="upload-content">
+            <div class="single-upload">
+                <h3>Upload Single File</h3>
+                <form id="singleUploadForm" name="singleUploadForm">
+                    <input id="singleFileUploadInput" type="file" name="file" class="file-input" required />
+                    <button type="submit" class="primary submit-btn">Submit</button>
+                </form>
+                <div class="upload-response">
+                    <div id="singleFileUploadError"></div>
+                    <div id="singleFileUploadSuccess"></div>
+                </div>
+            </div>
+            <div class="multiple-upload">
+                <h3>Upload Multiple Files</h3>
+                <form id="multipleUploadForm" name="multipleUploadForm">
+                    <input id="multipleFileUploadInput" type="file" name="files" class="file-input" multiple required />
+                    <button type="submit" class="primary submit-btn">Submit</button>
+                </form>
+                <div class="upload-response">
+                    <div id="multipleFileUploadError"></div>
+                    <div id="multipleFileUploadSuccess"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script th:src="@{/js/uploadFileFunctions.js}"></script>
 
         <!-- The Contact Section -->
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
@@ -219,7 +250,6 @@
         </div>
 
         <!-- End Page Content -->
-    </div>
 
 
     <script>

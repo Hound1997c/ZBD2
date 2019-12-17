@@ -28,9 +28,9 @@ public class FileController {
     @Autowired
     private DBFileStorageServiceImpl DBFileStorageService;
 
-    @PostMapping("/uploadFile")
+    @PostMapping("uploadFile")
     public UploadFileResponse uploadFile(@RequestParam("file") MultipartFile file) {
-        System.out.println("jestesmy w uploadFile");
+        System.out.println("\n\njestesmy w uploadFile\n");
 
         DBFile dbFile = DBFileStorageService.storeFile(file);
 

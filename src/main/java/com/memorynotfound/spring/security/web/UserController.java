@@ -151,7 +151,7 @@ public class UserController {
                 Order existOrder = orderService.findOrderByUserAndProduct(loggedUser,bucket.getProduct());
                 if(existOrder==null){
                     Order order = new Order();
-                    order.setActive(1);
+                    //order.setActive(1);
                     order.setUser(loggedUser);
                     order.setProduct(bucket.getProduct());
                     order.setAmount(bucket.getAmount());

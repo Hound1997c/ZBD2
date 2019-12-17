@@ -53,6 +53,8 @@ public class UserRegistrationController {
             return "registration";
         }
 
+        roleService.addNewRole("ROLE_USER");
+        roleService.addNewRole("ROLE_ADMIN");
         User registered = userService.save(userDto,roleService.findByName(role));
         /*try{
             String appUrl = request.getContextPath();

@@ -124,7 +124,9 @@ public class AdminController {
         Order order = orderService.findOrderByUserAndProduct(user,product);
         //order.setActive(0);
         //orderService.save(order);
-        orderService.deleteOrder(order);
+        //orderService.deleteOrder(order);
+        order.setState("denied");
+        orderService.saveAndFlush(order);
         ModelAndView model = new ModelAndView("redirect:/admin/adminIndex");
         return model;
     }
@@ -140,7 +142,9 @@ public class AdminController {
         long userMoney = user.getMoney();
         user.setMoney(userMoney-moneyToPay);
         userService.save(user);
-        orderService.deleteOrder(order);
+        order.setState("accepted");
+        //orderService.deleteOrder(order);
+        orderService.saveAndFlush(order);
         ModelAndView model = new ModelAndView("redirect:/admin/adminIndex");
         return model;
     }

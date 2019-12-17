@@ -38,6 +38,9 @@ public class ProductServiceImpl implements ProductService{
         if(costPD<=0) return null;
         String catPD = prodDto.getCategory();
         if(catPD==null) return null;
+        /*byte [] imagePD = prodDto.getItemImage();
+        product.setProductImage(imagePD);
+        if(imagePD == null) return null;*/
         Product product = new Product();
         product.setName(namePD);
         product.setCost(costPD);

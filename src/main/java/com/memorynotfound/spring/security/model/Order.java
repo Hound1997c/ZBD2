@@ -20,10 +20,11 @@ public class Order{
 
     private long amount;
 
-    private int active;
+    private String state;// = "waiting";
 
-
-
+    public Order(){
+        this.state="waiting";
+    }
 
     public long getId() {
         return id;
@@ -57,12 +58,12 @@ public class Order{
         this.amount = amount;
     }
 
-    public int isActive() {
-        return active;
+    public String getState() {
+        return state;
     }
 
-    public void setActive(int active) {
-        this.active = active;
+    public void setState(String state) {
+        this.state = state;
     }
 
 

@@ -11,26 +11,50 @@ var multipleFileUploadError = document.querySelector('#multipleFileUploadError')
 var multipleFileUploadSuccess = document.querySelector('#multipleFileUploadSuccess');
 
 function uploadSingleFile(file) {
+    /*var serviceEndpoint = 'http://example.com/object/details?version=1.1';
+    $.ajax({
+        type: 'GET',
+        url: serviceEndpoint,
+        dataType: 'json',
+        contentType: 'json',
+        headers: { 'api-key':'myKey' },
+        success: onSuccess,
+        error: onFailure
+    });*/
+
+
+    singleFileUploadSuccess.innerHTML = "dupnie";
+
     var formData = new FormData();
     formData.append("file", file);
 
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "/uploadFile");
+    var wynik = xhr.open("POST", "uploadFile",true);
+    //xhr.send();
+
+    alert("xhr status: " + xhr.status);
 
     xhr.onload = function() {
         console.log(xhr.responseText);
         var response = JSON.parse(xhr.responseText);
+        alert("xhr status: " + xhr.status);
         if(xhr.status == 200) {
+            alert("if");
             singleFileUploadError.style.display = "none";
             singleFileUploadSuccess.innerHTML = "<p>File Uploaded Successfully.</p><p>DownloadUrl : <a href='" + response.fileDownloadUri + "' target='_blank'>" + response.fileDownloadUri + "</a></p>";
             singleFileUploadSuccess.style.display = "block";
         } else {
+            alert("else");
             singleFileUploadSuccess.style.display = "none";
             singleFileUploadError.innerHTML = (response && response.message) || "Some Error Occurred";
         }
     }
 
+    alert("ifelse");
+
     xhr.send(formData);
+
+    alert("send");
 }
 
 function uploadMultipleFiles(files) {

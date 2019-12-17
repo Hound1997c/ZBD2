@@ -12,16 +12,18 @@ public class ProductDto {
     @NotNull
     private long cost;
 
-    private byte[] itemImage;
     private String Category;
+    /*@Lob
+    private byte[] itemImage;
+
 
     public byte[] getItemImage() {
         return itemImage;
     }
 
-    public void setItemImage(byte[] itemImage) {
-        this.itemImage = itemImage;
-    }
+    public void setItemImage(MultipartFile itemImage) throws IOException {
+        this.itemImage = itemImage.getBytes();
+    } */
 
     public String getCategory() {
         return Category;

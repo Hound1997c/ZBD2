@@ -1,6 +1,5 @@
 package com.memorynotfound.spring.security.service;
 
-import com.memorynotfound.spring.security.model.Bucket;
 import com.memorynotfound.spring.security.model.Order;
 import com.memorynotfound.spring.security.model.Product;
 import com.memorynotfound.spring.security.model.User;
@@ -33,8 +32,8 @@ public class OrderServiceIml implements OrderService{
         List<Order> orderList = orderRepository.findAll();
         List<Order> outOrderList = new ArrayList<>();
         for(Order order : orderList){
-            System.out.println("czy on jest aktyeny: " + order.isActive());
-            if(order.isActive() == 1){
+            System.out.println("czy on jest aktyeny: " + order.getState());
+            if(order.getState().equals("waiting")){
                 outOrderList.add(order);
             }
         }
@@ -60,6 +59,11 @@ public class OrderServiceIml implements OrderService{
     @Override
     public void deleteOrder(Order order) {
         orderRepository.delete(order);
+    }
+
+    @Override
+    public Order saveAndFlush(Order order) {
+        return orderRepository.saveAndFlush(order);
     }
 
     /*@Override

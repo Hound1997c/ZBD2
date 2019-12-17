@@ -1,6 +1,5 @@
 package com.memorynotfound.spring.security.service;
 
-import com.memorynotfound.spring.security.model.Bucket;
 import com.memorynotfound.spring.security.model.Order;
 import com.memorynotfound.spring.security.model.Product;
 import com.memorynotfound.spring.security.model.User;
@@ -18,4 +17,5 @@ public interface OrderService {
     Order save(Order order);
     Order findOrderByUserAndProduct(User user, Product product);
     void deleteOrder(Order order);
+    Order saveAndFlush(Order order);
 }

@@ -12,9 +12,9 @@ public class Product {
     private String name;
     private long cost;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "productImage_id", referencedColumnName = "id")
-    private DBFile productImage;
+    //@OneToOne(cascade = CascadeType.ALL)
+    //@JoinColumn(name = "productImage_id", referencedColumnName = "id")
+    //private DBFile productImage = null;
 
     private String Category;
 
@@ -36,6 +36,10 @@ public class Product {
     fetch = FetchType.LAZY,
     mappedBy = "product")
     private Set<Order> orderList;
+
+    /*@Lob
+    private byte[] productImage;*/
+
 
     public Set<Order> getOrderList() {
         return orderList;
@@ -81,11 +85,19 @@ public class Product {
         this.bucketList = bucketList;
     }
 
-    public DBFile getProductImage() {
+    /*public DBFile getProductImage() {
         return productImage;
     }
 
     public void setProductImage(DBFile productImage) {
         this.productImage = productImage;
+    }*/
+
+    /*public byte [] getProductImage() {
+        return productImage;
     }
+
+    public void setProductImage(byte [] productImage) {
+        this.productImage = productImage;
+    }*/
 }
