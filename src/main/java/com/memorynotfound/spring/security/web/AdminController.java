@@ -137,7 +137,7 @@ public class AdminController {
         System.out.println("Jestesmy w acceptOrder");
         User user = userService.findByEmail(userEmail);
         Product product = productService.findByName(productName);
-        Order order = orderService.findOrderByUserAndProduct(user,product);
+        Order order = orderService.findOrderByUserAndProductAndState(user,product,"waiting");
         long moneyToPay = product.getCost()*order.getAmount();
         long userMoney = user.getMoney();
         user.setMoney(userMoney-moneyToPay);

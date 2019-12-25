@@ -103,6 +103,11 @@ public class UserServiceImpl implements UserService {
         return userRepository.save(user);
     }
 
+    @Override
+    public String tryMySqlFunction() {
+        return userRepository.tryMySqlFunction();
+    }
+
 
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {

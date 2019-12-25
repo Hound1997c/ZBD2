@@ -67,13 +67,18 @@ public class UserController {
         List<Bucket> userBucket = bucketService.getUserBucket(user);
         long sumCost = bucketService.sumElements(user);
 
+        String toTryMySqlFunctionResult = userService.tryMySqlFunction();
+        String toTryMySqlFunction = toTryMySqlFunctionResult;
+
         ModelAndView model = new ModelAndView("user/userIndex");
         model.addObject("userBucket",userBucket);
         model.addObject("productList", productList);//groupByCategory
         model.addObject("sumCost",sumCost);
         model.addObject("categoryProductList",groupByCategory);
+        model.addObject("tryMySqlFunction", toTryMySqlFunction);
         //System.out.println("jego bucket to: " + userBucket.size());
         //System.out.println("jestesmy w user goIndex");
+
         return model;
     }
 
@@ -140,6 +145,7 @@ public class UserController {
     @GetMapping("/user/userIndex/makeOrder")
     public ModelAndView makeOrder(){
 
+        System.out.println("Jestesmy w makeOrder");
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String currentPrincipalName = authentication.getName();
         User loggedUser = userService.findByEmail(currentPrincipalName);
@@ -148,7 +154,7 @@ public class UserController {
         if(userMoney - price >= 0){
             List<Bucket> userBucket = bucketService.findAllByUser(loggedUser);
             for(Bucket bucket : userBucket){
-                Order existOrder = orderService.findOrderByUserAndProduct(loggedUser,bucket.getProduct());
+                Order existOrder = orderService.findOrderByUserAndProductAndState(loggedUser,bucket.getProduct(),"waiting");
                 if(existOrder==null){
                     Order order = new Order();
                     //order.setActive(1);

@@ -14,8 +14,10 @@ public interface OrderService {
     List<Order> findAll();
     List<Order> findAllActive();
     List<Order> makeOrders(User user);
+    //Order findWaitingProduct(Product product,User user)
     Order save(Order order);
     Order findOrderByUserAndProduct(User user, Product product);
+    Order findOrderByUserAndProductAndState(User user, Product product,String state);
     void deleteOrder(Order order);
     Order saveAndFlush(Order order);
 }

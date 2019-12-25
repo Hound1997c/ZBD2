@@ -3,39 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="ef290696-0c4d-4718-a048-773a5a50a0d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/DBFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/DBFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderServiceIml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/FileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserRegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/dto/ProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/uploadFilefunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/uploadFilefunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/adminIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/adminIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/model/DBFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/model/DBFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/OrderService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/OrderServiceIml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/OrderServiceIml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/FileController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/UserRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/UserRegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/dto/ProductDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memorynotfound/spring/security/web/dto/ProductDto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/uploadFilefunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/uploadFilefunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/adminIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/adminIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/user/userIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user/userIndex.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,33 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Product.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Bucket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/FileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="100">
+              <caret line="163" column="45" lean-forward="true" selection-start-line="163" selection-start-column="45" selection-end-line="163" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,64 +52,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/uploadFilefunctions.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="138">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderServiceIml.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="59" column="91" lean-forward="true" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/playload/UploadFileResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-              <folding>
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/DBFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,12 +88,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/adminIndex.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/OrderRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3825">
-              <caret line="225" selection-start-line="225" selection-end-line="225" />
+            <state relative-caret-position="213">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="163" column="25" lean-forward="true" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
+              <folding>
+                <marker date="1576868050205" expanded="true" signature="4020:4489" ph="..." />
               </folding>
             </state>
           </provider>
@@ -231,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/OnRegistrationCompleteEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/VerificationToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/RegistrationListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/entities/BucketProduct.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/classes.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.html" />
@@ -239,8 +184,6 @@
         <option value="$USER_HOME$/Desktop/htmltry/cypa/form.html" />
         <option value="$USER_HOME$/Desktop/htmltry/cypa/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/Bucket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/emailVerify/OnRegistrationCompleteEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/emailVerify/RegistrationListener.java" />
@@ -261,16 +204,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/js/functions.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/dto/ProductDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserRegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/OrderRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderServiceIml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Bucket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/DBFile.java" />
@@ -279,12 +216,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/FileController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/uploadFilefunctions.js" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderServiceIml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="-12" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -337,19 +283,76 @@
               <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="register-user — kopia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="register-user — kopia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="register-user — kopia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="register-user — kopia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="register-user — kopia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="register-user — kopia" type="b2602c69:ProjectViewProjectNode" />
               <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="register-user — kopia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="register-user — kopia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +367,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574854100615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577214189154" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-master/email" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -513,6 +516,12 @@
       <workItem from="1575738007759" duration="794000" />
       <workItem from="1575801832187" duration="2014000" />
       <workItem from="1575829821684" duration="88000" />
+      <workItem from="1576610078703" duration="6350000" />
+      <workItem from="1576674329388" duration="2730000" />
+      <workItem from="1576864420366" duration="3223000" />
+      <workItem from="1576929245216" duration="9663000" />
+      <workItem from="1577276349310" duration="2632000" />
+      <workItem from="1577292526844" duration="3362000" />
     </task>
     <task id="LOCAL-00001" summary="podział okien po zalogowaniu dla 3 różnych Ról.&#10;ROLE_USER ROLE_DALER ROLE_ADMIN">
       <created>1550067275115</created>
@@ -570,16 +579,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573163163510</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="comit for a long time">
+      <created>1576610185684</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576610185684</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="534772000" />
+    <option name="totallyTimeSpent" value="562732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2284041" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22913617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -589,7 +606,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.32543445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.43601894" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39810428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -634,7 +651,8 @@
     <MESSAGE value="prawie gotowy projekt" />
     <MESSAGE value="prawie gotowy projekt bez sonar gówna" />
     <MESSAGE value="tak jak bylo dawniej" />
-    <option name="LAST_COMMIT_MESSAGE" value="tak jak bylo dawniej" />
+    <MESSAGE value="comit for a long time" />
+    <option name="LAST_COMMIT_MESSAGE" value="comit for a long time" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/Bucket.java" />
@@ -693,16 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -711,16 +719,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1139#1140#0" expanded="true" />
             <element signature="e#1169#1170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -897,17 +895,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="82" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
-            <marker date="1574680072629" expanded="true" signature="4020:4489" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -944,30 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
-          <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserRegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1436">
-          <caret line="146" column="41" selection-start-line="146" selection-start-column="41" selection-end-line="146" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -988,45 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/OrderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderServiceIml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1841#1842#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1034,18 +962,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/uploadFilefunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3408#3409#0" expanded="true" />
-            <element signature="e#3451#3452#0" expanded="true" />
-            <element signature="e#3500#3501#0" expanded="true" />
-            <element signature="e#3548#3549#0" expanded="true" />
-            <element signature="method#mapRolesToAuthorities#0;class#UserServiceImpl#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Bucket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1057,37 +1001,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Bucket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/uploadFilefunctions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1126,9 +1039,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="139" column="90" selection-start-line="139" selection-start-column="90" selection-end-line="139" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3408#3409#0" expanded="true" />
+            <element signature="e#3451#3452#0" expanded="true" />
+            <element signature="e#3500#3501#0" expanded="true" />
+            <element signature="e#3548#3549#0" expanded="true" />
+            <element signature="method#mapRolesToAuthorities#0;class#UserServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/adminIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
+        <state relative-caret-position="275">
           <caret line="225" selection-start-line="225" selection-end-line="225" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#1;n#DOCTYPE#0;n#!!top" expanded="true" />
@@ -1136,10 +1091,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/userIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="163" column="25" lean-forward="true" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
+          <folding>
+            <marker date="1576868050205" expanded="true" signature="4020:4489" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="298">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/OrderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderServiceIml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="59" column="91" lean-forward="true" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memorynotfound/spring/security/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="163" column="45" lean-forward="true" selection-start-line="163" selection-start-column="45" selection-end-line="163" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

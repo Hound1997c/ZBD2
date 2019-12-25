@@ -11,5 +11,7 @@ import java.util.List;
 @Repository /**/
 public interface OrderRepository  extends JpaRepository<Order, Long>{
     Order findOrderByUserAndProduct(User user, Product product);
+    Order findOrderByUserAndProductAndState(User user, Product product,String state);
     List<Order> findAllByUserAndProduct(User user,Product product);
+
 }

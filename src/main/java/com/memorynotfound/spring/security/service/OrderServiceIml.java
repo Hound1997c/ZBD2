@@ -57,6 +57,11 @@ public class OrderServiceIml implements OrderService{
     }
 
     @Override
+    public Order findOrderByUserAndProductAndState(User user, Product product, String state) {
+        return orderRepository.findOrderByUserAndProductAndState(user,product,state);
+    }
+
+    @Override
     public void deleteOrder(Order order) {
         orderRepository.delete(order);
     }

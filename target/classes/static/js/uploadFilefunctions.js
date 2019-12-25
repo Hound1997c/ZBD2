@@ -11,7 +11,7 @@ var multipleFileUploadError = document.querySelector('#multipleFileUploadError')
 var multipleFileUploadSuccess = document.querySelector('#multipleFileUploadSuccess');
 
 function uploadSingleFile(file) {
-    var serviceEndpoint = 'http://example.com/object/details?version=1.1';
+    /*var serviceEndpoint = 'http://example.com/object/details?version=1.1';
     $.ajax({
         type: 'GET',
         url: serviceEndpoint,
@@ -20,7 +20,7 @@ function uploadSingleFile(file) {
         headers: { 'api-key':'myKey' },
         success: onSuccess,
         error: onFailure
-    });
+    });*/
 
 
     singleFileUploadSuccess.innerHTML = "dupnie";
