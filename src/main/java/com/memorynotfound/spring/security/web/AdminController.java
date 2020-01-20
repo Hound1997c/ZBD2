@@ -121,7 +121,7 @@ public class AdminController {
         System.out.println("Jestesmy w denyOrder");
         User user = userService.findByEmail(userEmail);
         Product product = productService.findByName(productName);
-        Order order = orderService.findOrderByUserAndProduct(user,product);
+        Order order = orderService.findOrderByUserAndProductAndState(user,product,"waiting");
         //order.setActive(0);
         //orderService.save(order);
         //orderService.deleteOrder(order);
