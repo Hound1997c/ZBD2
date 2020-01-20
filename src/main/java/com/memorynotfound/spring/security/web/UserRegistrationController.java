@@ -40,8 +40,9 @@ public class UserRegistrationController {
 
     @PostMapping
     public String registerUserAccount(@ModelAttribute("user") @Valid UserRegistrationDto userDto,
-                                      BindingResult result, @RequestParam("role") String role, WebRequest request){
-        role = "ROLE_USER";
+                                      BindingResult result, WebRequest request){
+        // , @RequestParam("role") String role
+        String role = "ROLE_USER";
         System.out.println("\n"+role+"\n");
         System.out.println("imie to: " + userDto.getFirstName());
         User existing = userService.findByEmail(userDto.getEmail());
