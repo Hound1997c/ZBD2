@@ -76,6 +76,7 @@ public class UserController {
         model.addObject("sumCost",sumCost);
         model.addObject("categoryProductList",groupByCategory);
         model.addObject("tryMySqlFunction", toTryMySqlFunction);
+        model.addObject("loggedUserMoney",user.getMoney());
         //System.out.println("jego bucket to: " + userBucket.size());
         //System.out.println("jestesmy w user goIndex");
 

@@ -42,10 +42,11 @@ public class User {
             mappedBy = "user")
     private List<Bucket> bucketList = null;
 
-    /*@OneToMany(cascade = CascadeType.ALL,
+    //
+    @OneToMany(cascade = CascadeType.ALL,
         fetch = FetchType.LAZY,
-        mappedBy = "user")*/
-    /*private List<Order> orderList = null;
+        mappedBy = "user")
+    private List<Order> orderList = null;
 
     public List<Order> getOrderList() {
         return orderList;
@@ -53,7 +54,7 @@ public class User {
 
     public void setOrderList(List<Order> orderList) {
         this.orderList = orderList;
-    }*/
+    }
 
 
     public List<Bucket> getBucket() {
