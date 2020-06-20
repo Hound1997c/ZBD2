@@ -83,12 +83,16 @@ public class AdminController {
 
 
     @PostMapping("/admin/adminIndex/addProduct/")
-    public ModelAndView addProduct(@ModelAttribute(value="prod") @Valid ProductDto tempProd){
+    public ModelAndView addProduct(@ModelAttribute(value="prod") @Valid ProductDto tempProd,
+                                    @RequestParam("file") MultipartFile file){
         System.out.println("Jestesmy w addproduct");
         System.out.println("ktegoria to: " + tempProd.getCategory());
         System.out.println("nazwa prod: " + tempProd.getName());
         System.out.println("koszt prod: " + tempProd.getCost());
         Product isProduct = productService.addNewProduct(tempProd);
+
+        DBFile dbFile = DBFileStorageService.storeFile(file);
+
         if(isProduct==null) System.out.println("cos nie ta z dodawaniem");
         else System.out.println("udalo sie nowy product");
         ModelAndView model = new ModelAndView("redirect:/admin/adminIndex");

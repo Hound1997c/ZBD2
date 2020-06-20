@@ -158,7 +158,10 @@
                         </td>
                         <td><input value="name" th:field="*{name}"/></td>
                         <td><input value="cost" th:field="*{cost}"/></td>
-                        <td><!--input value="productImage" th:field="*{productImage}" type="file"/--></td>
+                        <td>
+                            <input id="singleFileUploadInput" type="file" name="file" class="file-input" required />
+                            <!--input value="productImage" th:field="*{productImage}" type="file"/-->
+                        </td>
                         <td><button type="submit">Add Product</button></td>
                         </tr>
                     </form>
